@@ -87,7 +87,7 @@ public class ChatManager : MonoBehaviour {
 		*0.03f = 16/480  (16 is the original font size in 320/480 resolution screen so to increase font size automatically with increase resolution screen we should multiply 0.03 with screen height)
 		*this not required when canvas scale mode is set to scale with screen size.
 		*/
-		fontSize = (int)(Screen.height*0.03f);
+		// fontSize = (int)(Screen.height*0.03f);
 
 		clb.parentText.fontSize = fontSize;
 		clb.childText.fontSize = fontSize;
